@@ -9,7 +9,7 @@
   color: white;
   text-align: center;
   border-top-style: solid;
-  border-color: aqua;
+  border-color: rgba(70, 70, 70, 0.486);
  
 }
 
@@ -24,3 +24,64 @@
 .footer a:hover {
   text-decoration: underline;
 }
+
+@media (min-width:768px){
+  .footer {
+    align-items: center;
+    display: flex;
+    height: 70px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    border-top-style: solid;
+    border-color: rgba(70, 70, 70, 0.486);
+   
+  }
+  
+  .footer a {
+    color: rgba(46, 46, 46, 0.795);
+    cursor: pointer;
+    font-size: 14px;
+    padding-left: 25px;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+}
+
+@media only screen and (min-width:320px) and (max-width:480px){
+  
+  .footer {
+    align-items: center;
+    display: flex;
+    height: 50px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    border-top-style: solid;
+    border-color: rgba(70, 70, 70, 0.486);
+   
+  }
+  
+  .footer a {
+    color: rgba(46, 46, 46, 0.795);
+    cursor: pointer;
+    font-size: 13px;
+    padding-left: 9px;
+    padding-right: 9px;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+}
+  
