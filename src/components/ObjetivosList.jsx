@@ -18,7 +18,7 @@ function ObjevitosList(){
                                  className="form-control mb-2"
                                  placeholder="Ingresa la tarea..."
                                  />
-                                 <button className='btn btn-warning btn-block'
+                                 <button id='agregar' className='btn btn-warning '
                                  type="submit">
                                   Agregar
                                  </button>

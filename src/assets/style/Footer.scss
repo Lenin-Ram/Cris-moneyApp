@@ -85,3 +85,34 @@
   }
 }
   
+@media only screen and (min-width:100px) and (max-width:319px){
+  
+  .footer {
+    align-items: center;
+    display: flex;
+    height: auto;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    border-top-style: solid;
+    border-color: rgba(70, 70, 70, 0.486);
+   
+  }
+  
+  .footer a {
+    color: rgba(46, 46, 46, 0.795);
+    cursor: pointer;
+    font-size: 13px;
+    padding-left: auto;
+    padding-right: auto;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+}
+  

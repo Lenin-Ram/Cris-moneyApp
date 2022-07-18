@@ -1,0 +1,80 @@
+<Table className='tables' borderless>
+                     
+                     <thead className='thead'>
+                               <tr>
+                                         <th>
+                                        Planificadas
+                                         </th>
+                                        
+                               </tr>
+                     </thead>
+ 
+ 
+                     <tbody>
+ 
+                     <tr>
+                     <th scope="row">
+                     <FaDollarSign />ELectricidad
+                     </th>
+                    
+                     </tr>
+ 
+                     <tr>
+                     <th scope="row">
+                     <FaDollarSign />   Salario
+                     </th>
+                     
+                     </tr>
+ 
+                    
+ 
+                     </tbody>
+                    </Table>
+ 
+                    <Table className='tables' borderless>
+                      
+                      <thead className='thead'>
+                                <tr>
+                                          <th>
+                                         Pagadas
+                                          </th>
+                                         
+                                </tr>
+                      </thead>
+  
+  
+                      <tbody>
+ 
+                     <tr>
+                     <th scope="row">
+                     <FaDollarSign /> Ropa
+
+                     
+                     </th>
+                     
+                     </tr>          
+  
+                      <tr>
+                      <th scope="row">
+                      <FaDollarSign /> Cafe
+                      </th>
+                     
+                      </tr>
+
+                      <tr>
+                      <th scope="row">
+                      <FaDollarSign /> Banco Money pro
+                      </th>
+                     
+                      </tr>
+   
+                      </tbody>
+                     </Table>
+
+
+                      <Button className='button'
+                      color="warning"
+                    >
+                     369,62 <FaDollarSign/>
+                    </Button>
+                    </td>
