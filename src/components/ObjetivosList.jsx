@@ -1,7 +1,7 @@
 import React from 'react';
 import '../assets/style/Home.scss';
 
-function ObjevitosList(){
+function ObjetivosList(){
           return (
                     <div className='container mt-5'>
                     <h1>Objetivos</h1>
@@ -29,4 +29,4 @@ function ObjevitosList(){
           )
 }
 
-export default ObjevitosList;
+export default ObjetivosList;

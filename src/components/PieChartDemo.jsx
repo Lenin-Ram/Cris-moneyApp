@@ -36,6 +36,7 @@ const PieChartDemo = () => {
 
     return (
         <div id='Pie' className="card flex justify-content-center">
+                  
             <Chart type="pie" data={chartData} options={lightOptions} style={{ position: 'relative', width: '40%' }} />
         </div>
     )

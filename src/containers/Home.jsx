@@ -2,7 +2,7 @@ import React from 'react';
 import ObjetivosList from '../components/ObjetivosList';
 import '../assets/style/Home.scss';
 import { Table, Button} from 'reactstrap';
-import { FaDollarSign } from "react-icons/fa";
+import { FaBolt, FaCoffee, FaCreditCard, FaDollarSign, FaMoneyBill, FaTshirt } from "react-icons/fa";
 
 
 
@@ -39,7 +39,7 @@ const Home = () => {
  
                      <tr>
                      <th scope="row">
-                     ELectricidad
+                     <FaBolt/> Electricidad
                      </th>
                      <th className='presupuest-table' scope="row">
                      <Button className='button'
@@ -52,7 +52,7 @@ const Home = () => {
  
                      <tr>
                      <th scope="row">
-                       Salario
+                     <FaMoneyBill/> Salario
                      </th>
                      <th className='presupuest-table' scope="row">
                      <Button className='button'
@@ -86,7 +86,7 @@ const Home = () => {
  
                      <tr>
                      <th scope="row">
-                      Ropa
+                     <FaTshirt/> Ropa
                      </th>
 
                      <th className='presupuest-table' scope="row">
@@ -98,7 +98,7 @@ const Home = () => {
   
                       <tr>
                       <th scope="row">
-                       Cafe
+                      <FaCoffee/> Cafe
                       </th>
                       <th className='presupuest-table' scope="row">
                      <Button className='button'
@@ -109,7 +109,7 @@ const Home = () => {
 
                       <tr>
                       <th scope="row">
-                      Banco Money pro 
+                      <FaCreditCard/> Banco Money pro 
                       </th>
                       <th className='presupuest-table' scope="row">
                      <Button className='button'

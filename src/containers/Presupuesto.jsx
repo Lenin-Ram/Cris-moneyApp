@@ -2,7 +2,6 @@ import React from 'react';
 import '../assets/style/Home.scss';
 import { Table } from 'reactstrap';
 import { FaDollarSign } from "react-icons/fa";
-import PieChartDemo from '../components/PieChartDemo';
 
 
 const Presupuesto = () => {
@@ -31,10 +30,7 @@ const Presupuesto = () => {
 
   </div>
 
-<div>
 
-  <PieChartDemo/>
-</div>
 
 
    </>
