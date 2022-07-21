@@ -1,6 +1,6 @@
 import React from 'react';
 import '../assets/style/Home.scss';
-import { CardText, Row, Col, Card, CardTitle, Button } from 'reactstrap';
+import { Form, FormGroup, Label, Input, Button } from 'reactstrap';
 
 
 
@@ -11,56 +11,147 @@ const Mas = () => {
          
          
          <>
+
+         <h1>HELLO</h1>
          
-       <h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias soluta magnam non earum error, eos cupiditate nostrum, impedit deleniti quod maiores quis, aperiam beatae in obcaecati adipisci at explicabo possimus.</h1>
-
-
-       <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla aperiam iure dolores eum aliquam, earum accusamus et iste doloremque fugiat, magnam similique enim quis vero cupiditate porro inventore labore dolorem.</h3>
-       <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla aperiam iure dolores eum aliquam, earum accusamus et iste doloremque fugiat, magnam similique enim quis vero cupiditate porro inventore labore dolorem.</h3>
-
-       <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias deleniti excepturi dolorem! Eos ullam autem cumque, necessitatibus at, amet, fugiat beatae quibusdam veniam qui impedit? Odio nostrum exercitationem culpa nulla.</h2>
-
-       <Row>
-  <Col sm="6">
-    <Card body>
-      <CardTitle tag="h5">
-        Special Title Treatment
-      </CardTitle>
-      <CardText>
-        With supporting text below as a natural lead-in to additional content.
-      </CardText>
-      <Button>
-        Go somewhere
-      </Button>
-    </Card>
-  </Col>
-  <Col sm="6">
-    <Card body>
-      <CardTitle tag="h5">
-        Special Title Treatment
-      </CardTitle>
-      <CardText>
-        With supporting text below as a natural lead-in to additional content.
-      </CardText>
-      <Button>
-        Go somewhere
-      </Button>
-    </Card>
-  </Col>
-  <Col sm="6">
-    <Card body>
-      <CardTitle tag="h5">
-        Special Title Treatment
-      </CardTitle>
-      <CardText>
-        With supporting text below as a natural lead-in to additional content.
-      </CardText>
-      <Button>
-        Go somewhere
-      </Button>
-    </Card>
-  </Col>
-</Row>
+         <Form id='background-mas'>
+  <FormGroup>
+    <Label for="exampleEmail">
+      Email
+    </Label>
+    <Input
+      id="exampleEmail"
+      name="email"
+      placeholder="with a placeholder"
+      type="email"
+      
+    />
+  </FormGroup>
+  <FormGroup>
+    <Label for="examplePassword">
+      Password
+    </Label>
+    <Input
+      id="examplePassword"
+      name="password"
+      placeholder="password placeholder"
+      type="password"
+    />
+  </FormGroup>
+  <FormGroup>
+    <Label for="exampleSelect">
+      Select
+    </Label>
+    <Input
+      id="exampleSelect"
+      name="select"
+      type="select"
+    >
+      <option>
+        1
+      </option>
+      <option>
+        2
+      </option>
+      <option>
+        3
+      </option>
+      <option>
+        4
+      </option>
+      <option>
+        5
+      </option>
+    </Input>
+  </FormGroup>
+  <FormGroup>
+    <Label for="exampleSelectMulti">
+      Select Multiple
+    </Label>
+    <Input
+      id="exampleSelectMulti"
+      multiple
+      name="selectMulti"
+      type="select"
+    >
+      <option>
+        1
+      </option>
+      <option>
+        2
+      </option>
+      <option>
+        3
+      </option>
+      <option>
+        4
+      </option>
+      <option>
+        5
+      </option>
+    </Input>
+  </FormGroup>
+  <FormGroup>
+    <Label for="exampleText">
+      Text Area
+    </Label>
+    <Input
+      id="exampleText"
+      name="text"
+      type="textarea"
+    />
+  </FormGroup>
+  
+  <FormGroup tag="fieldset">
+    <legend>
+      Radio Buttons
+    </legend>
+    <FormGroup check>
+      <Input
+        name="radio1"
+        type="radio"
+      />
+      {' '}
+      <Label check>
+        Option one is this and that—be sure to include why it's great
+      </Label>
+    </FormGroup>
+    <FormGroup check>
+      <Input
+        name="radio1"
+        type="radio"
+      />
+      {' '}
+      <Label check>
+        Option two can be something else and selecting it will deselect option one
+      </Label>
+    </FormGroup>
+    <FormGroup
+      check
+      disabled
+    >
+      <Input
+        disabled
+        name="radio1"
+        type="radio"
+      />
+      {' '}
+      <Label check>
+        Option three is disabled
+      </Label>
+    </FormGroup>
+  </FormGroup>
+  <FormGroup check>
+    <Input type="checkbox" />
+    {' '}
+    <Label check>
+      Check me out
+    </Label>
+  </FormGroup>
+  <Button>
+    Submit
+  </Button>
+</Form>
 
        
          
